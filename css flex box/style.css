@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: antiquewhite;
+}
+h1 {
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  margin: 0;
+}
+article {
+  padding: 5px;
+  margin: 5px;
+  background-color: burlywood;
+  /* flex: 200px; */
+  flex: 1 200px;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* article:nth-of-type(3) {
+  flex: 2 200px;
+} */
+button {
+  flex: 1 auto;
+  margin: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+article:nth-of-type(3) div:first-child {
+  flex: 1 100px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
