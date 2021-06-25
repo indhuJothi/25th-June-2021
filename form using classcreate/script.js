@@ -1,17 +1,3 @@
-// function yesnoCheck() {
-//     if (document.getElementsByClassName('yesCheck').checked) {
-//         // document.getElementById('ifYes').style.visibility = 'visible';
-//         // document.getElementById('ifYes1').style.visibility = 'visible';
-//         document.getElementsByClassName('temp').style.visibility='visible';
-//     }
-//     else document.getElementById('ifYes').style.visibility = 'hidden';
-
-// import { doc } from "prettier";
-
-// }
-// function res(){
-
-// }
 function res(){
     var fromdiv=document.createElement('div');
     fromdiv.classList.add('fromdiv');
