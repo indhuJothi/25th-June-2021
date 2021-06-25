@@ -45,36 +45,11 @@ select {
   border-radius: 2px;
 }
 
-#oneway,
-#twoway {
-  display: inline;
-  width: 10px;
-}
-#submit {
-  font-size: 20px;
-  font-weight: bold;
-  background: #006dcc;
-  color: #fff;
-  margin-top: 10px;
-  cursor: pointer;
-}
+
 .error {
   color: red;
   font-size: 90%;
 }
-#result {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: cadetblue;
-}
 
-/* @media (min-width: 310px) and (max-width: 480) {
-    body {
-      width: 100%;
-    }
-    header {
-      text-align: center;
-    }
-  } */
+
+
