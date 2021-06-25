@@ -76,11 +76,7 @@ const listItems=`  <li>List1</li>
     unorder.innerHTML=listItems;
    document.querySelector('.maincontainer').append(navigation);
 
-// append()
-// appendChild()
-// prepend()
-// insertadjacent()
-// insertbefore() avaialable in MDN referenced document
+
 
 
  console.log(Book2);
